@@ -27,8 +27,8 @@
 <meta property="og:site_name" content="Ziyu">
 <meta property="og:description" content="Ziyu Zhong   📍 Lund, Sweden✉️ ziyu.zhong@eit.lth.seLinkedIn AboutI am currently a doctoral student in Networked and Extended Reality (XR) at Lund University.My research lies at the intersecti">
 <meta property="og:locale">
-<meta property="article:published_time" content="2025-12-09T17:03:46.544Z">
-<meta property="article:modified_time" content="2025-12-09T17:03:46.544Z">
+<meta property="article:published_time" content="2025-12-09T20:39:02.871Z">
+<meta property="article:modified_time" content="2025-12-09T20:39:02.871Z">
 <meta property="article:author" content="Ziyu">
 <meta property="article:tag" content="music, java, photography, make things works ,arduino">
 <meta name="twitter:card" content="summary">
@@ -119,6 +119,21 @@
     <a href="/" rel="section"><i class="fa fa-home fa-fw"></i>Home</a>
 
   </li>
+        <li class="menu-item menu-item-projects">
+
+    <a href="/categories/Projects/" rel="section"><i class="fa fa-folder fa-fw"></i>projects</a>
+
+  </li>
+        <li class="menu-item menu-item-songs">
+
+    <a href="/categories/Songs/" rel="section"><i class="fa fa-music fa-fw"></i>songs</a>
+
+  </li>
+        <li class="menu-item menu-item-research">
+
+    <a href="/categories/Research/" rel="section"><i class="fa fa-flask fa-fw"></i>research</a>
+
+  </li>
         <li class="menu-item menu-item-archives">
 
     <a href="/archives/" rel="section"><i class="fa fa-archive fa-fw"></i>Archives</a>
@@ -207,7 +222,7 @@ Lund University, Department of Electrical Engineering and Information Technology
 </li>
 </ul>
 <hr>
-<h2 id="Publications"><a href="#Publications" class="headerlink" title="Publications"></a>Publications</h2><h3 id="Conference-Papers"><a href="#Conference-Papers" class="headerlink" title="Conference Papers"></a>Conference Papers</h3><ol>
+<h2 id="Projects-and-Publication"><a href="#Projects-and-Publication" class="headerlink" title="Projects and Publication"></a>Projects and Publication</h2><h3 id="Conference-Papers"><a href="#Conference-Papers" class="headerlink" title="Conference Papers"></a>Conference Papers</h3><ol>
 <li><strong>[VRST]Predictability-Aware Motion Prediction for Edge XR via High-Order Error-State Kalman Filtering</strong><br><em>ACM Symposium on Virtual Reality Software and Technology (VRST)</em>, ACM, 2025.<br><strong>Authors:</strong> Ziyu Zhong, …<br><strong>Summary:</strong> Latency-aware motion prediction for distributed &#x2F; cloud XR rendering, compensating motion-to-photon latency using SLAM-based and ML-based pose prediction.<br><strong>DOI:</strong> <a href="https://doi.org/10.1145/3756884.3765973"><code>10.1145/3756884.3765973</code></a></li>
 </ol>
 <!-- 2. **\[AIXR\] (Fill in exact title)**  
@@ -216,45 +231,8 @@ Lund University, Department of Electrical Engineering and Information Technology
    **Summary:** Robust multimodal head-pose tracking for XR HMDs, fusing OpenXR, IMU/visual signals, and mocap under unknown extrinsics and clock drift.  
    **Link:** (add IEEE Xplore / DOI link here) -->
 
-<!-- > Add more items here if you have additional papers (workshops, posters, journal submissions, etc.) -->
 
-<hr>
-<!-- ## Ongoing Research Projects -->
 
-<!-- ### Multimodal XR Pose Dataset \& Prediction Benchmark
-
-A high-frequency, time-synchronized XR dataset with:
-
-- **200 Hz** OpenXR HMD pose,
-- **500 Hz** optical mocap trajectories (24-camera system),
-- Synchronized **first-person VR video** and **external user-view video**.
-
-Key components:
-
-- Sub-millisecond temporal alignment and extrinsic calibration between mocap and headset frames.  
-- Analyses of motion entropy, velocity/acceleration/jerk, and residuals between OpenXR tracking and mocap ground truth (Quest 2 vs Quest 3).  
-- Baseline pose prediction models (linear, Kalman, lightweight ML) evaluated under simulated network delays.
-
-This dataset is being developed as a **benchmark for latency-aware pose prediction** and a **multimodal pretraining resource** for future XR foundation models.
-
----
-
-### Low-Latency AR with LLM Backend (ChatGPT-style)
-
-- Designing an AR system that integrates **head/hand pose** and **visual context** with **LLM responses**.  
-- Profiling communication and inference bottlenecks, and exploring **predictive scheduling** to reduce perceived latency.  
-- Investigating how multimodal signals (motion + camera + language) can be combined to drive responsive AR assistance.
-
---- -->
-
-<!-- ### GPU-Accelerated Max-Flow for Real-Time Workloads
-
-- Implemented a **CUDA-based Max-Flow solver**, offloading CPU bottlenecks to GPU.  
-- Achieved ≈**80% reduction** in runtime compared to the CPU baseline.  
-- Used **Nvidia Nsight** tools to analyze warp divergence, memory throughput, and kernel-level bottlenecks.  
-- This work informs my approach to **efficient inference and acceleration of multimodal/vision models**.
-
---- -->
 <h3 id="Real-Time-Translation-System-M-Sc-Thesis"><a href="#Real-Time-Translation-System-M-Sc-Thesis" class="headerlink" title="Real-Time Translation System (M.Sc. Thesis)"></a><a href="/2021/08/24/ASR-App/">Real-Time Translation System (M.Sc. Thesis)</a></h3><ul>
 <li>Designed a full <strong>real-time simultaneous translation pipeline</strong>:<ul>
 <li>speech-to-text,</li>
@@ -265,7 +243,12 @@ This dataset is being developed as a **benchmark for latency-aware pose predicti
 <li>Built a <strong>production-style cloud service</strong> and an <strong>Android demo app</strong> to showcase the end-to-end system.  </li>
 <li>Focused on balancing <strong>latency, QoE, and model complexity</strong>, giving me practical experience in deploying ML systems in real-world conditions.</li>
 </ul>
-<hr>
+<h3 id="GPU-Accelerated-Max-Flow-for-Real-Time-Workloads"><a href="#GPU-Accelerated-Max-Flow-for-Real-Time-Workloads" class="headerlink" title="GPU-Accelerated Max-Flow for Real-Time Workloads"></a><a href="https://drive.google.com/file/d/1Wz2UCqGHFC5DAJSeOFjH1J5lY6B8KRZh/view?usp=sharing">GPU-Accelerated Max-Flow for Real-Time Workloads</a></h3><ul>
+<li>Implemented a <strong>CUDA-based Max-Flow solver</strong>, offloading CPU bottlenecks to GPU.  </li>
+<li>Achieved ≈<strong>80% reduction</strong> in runtime compared to the CPU baseline.  </li>
+<li>Used <strong>Nvidia Nsight</strong> tools to analyze warp divergence, memory throughput, and kernel-level bottlenecks.  </li>
+<li>This work informs my approach to <strong>efficient inference and acceleration of multimodal&#x2F;vision models</strong>.</li>
+</ul>
 <h2 id="Industry-Experience"><a href="#Industry-Experience" class="headerlink" title="Industry Experience"></a>Industry Experience</h2><h3 id="Software-Engineer-—-QQ-PCG"><a href="#Software-Engineer-—-QQ-PCG" class="headerlink" title="Software Engineer — QQ (PCG)"></a>Software Engineer — QQ (PCG)</h3><p>Tencent, Shenzhen, China · <em>Dec 2020 – Feb 2023</em></p>
 <ul>
 <li>Maintained and evolved a large-scale Android codebase for QQ (PCG), working across legacy modules and modern Kotlin&#x2F;Jetpack components.</li>
@@ -353,7 +336,7 @@ This dataset is being developed as a **benchmark for latency-aware pose predicti
 
       <!--noindex-->
       <div class="post-toc-wrap sidebar-panel">
-          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ziyu-Zhong"><span class="nav-number">1.</span> <span class="nav-text">Ziyu Zhong</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#About"><span class="nav-number">1.1.</span> <span class="nav-text">About</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Research-Interests"><span class="nav-number">1.2.</span> <span class="nav-text">Research Interests</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Education"><span class="nav-number">1.3.</span> <span class="nav-text">Education</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Publications"><span class="nav-number">1.4.</span> <span class="nav-text">Publications</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Conference-Papers"><span class="nav-number">1.4.1.</span> <span class="nav-text">Conference Papers</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Real-Time-Translation-System-M-Sc-Thesis"><span class="nav-number">1.4.2.</span> <span class="nav-text">Real-Time Translation System (M.Sc. Thesis)</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Industry-Experience"><span class="nav-number">1.5.</span> <span class="nav-text">Industry Experience</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Software-Engineer-%E2%80%94-QQ-PCG"><span class="nav-number">1.5.1.</span> <span class="nav-text">Software Engineer — QQ (PCG)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Software-Engineer-Intern-%E2%80%94-Video-Architecture"><span class="nav-number">1.5.2.</span> <span class="nav-text">Software Engineer Intern — Video Architecture</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Technical-Skills"><span class="nav-number">1.6.</span> <span class="nav-text">Technical Skills</span></a></li></ol></li></ol></div>
+          <div class="post-toc motion-element"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#Ziyu-Zhong"><span class="nav-number">1.</span> <span class="nav-text">Ziyu Zhong</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#About"><span class="nav-number">1.1.</span> <span class="nav-text">About</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Research-Interests"><span class="nav-number">1.2.</span> <span class="nav-text">Research Interests</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Education"><span class="nav-number">1.3.</span> <span class="nav-text">Education</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Projects-and-Publication"><span class="nav-number">1.4.</span> <span class="nav-text">Projects and Publication</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Conference-Papers"><span class="nav-number">1.4.1.</span> <span class="nav-text">Conference Papers</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Real-Time-Translation-System-M-Sc-Thesis"><span class="nav-number">1.4.2.</span> <span class="nav-text">Real-Time Translation System (M.Sc. Thesis)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#GPU-Accelerated-Max-Flow-for-Real-Time-Workloads"><span class="nav-number">1.4.3.</span> <span class="nav-text">GPU-Accelerated Max-Flow for Real-Time Workloads</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Industry-Experience"><span class="nav-number">1.5.</span> <span class="nav-text">Industry Experience</span></a><ol class="nav-child"><li class="nav-item nav-level-3"><a class="nav-link" href="#Software-Engineer-%E2%80%94-QQ-PCG"><span class="nav-number">1.5.1.</span> <span class="nav-text">Software Engineer — QQ (PCG)</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#Software-Engineer-Intern-%E2%80%94-Video-Architecture"><span class="nav-number">1.5.2.</span> <span class="nav-text">Software Engineer Intern — Video Architecture</span></a></li></ol></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Technical-Skills"><span class="nav-number">1.6.</span> <span class="nav-text">Technical Skills</span></a></li></ol></li></ol></div>
       </div>
       <!--/noindex-->
 
@@ -372,11 +355,11 @@ This dataset is being developed as a **benchmark for latency-aware pose predicti
         </a>
       </div>
       <div class="site-state-item site-state-categories">
-        <span class="site-state-item-count">2</span>
+        <span class="site-state-item-count">3</span>
         <span class="site-state-item-name">categories</span>
       </div>
       <div class="site-state-item site-state-tags">
-        <span class="site-state-item-count">11</span>
+        <span class="site-state-item-count">14</span>
         <span class="site-state-item-name">tags</span>
       </div>
   </nav>
